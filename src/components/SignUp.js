@@ -34,7 +34,7 @@ function SignUp() {
         e.preventDefault();
         setInputData([...inputData, inputHandler]);
         console.log(inputData);
-       navigate('/login'); 
+        navigate('/login');
 
     }
 
